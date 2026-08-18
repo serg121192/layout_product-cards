@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 16px 0 24px;
 
   &__icons {
@@ -15,7 +15,6 @@
       width: 16px;
       background-image: url(../images/star-active.svg);
       background-repeat: no-repeat;
-      background-size: cover;
       background-position: center;
     }
 
@@ -27,6 +26,6 @@
   &__reviews {
     font-size: 10px;
     line-height: 14px;
-    color: $light-text-color;
+    color: $main-text-color;
   }
 }
